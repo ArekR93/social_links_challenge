@@ -20,6 +20,7 @@ body {
   border-radius: 15px;
   background-color: hsl(0, 0%, 12%);
   color: hsl(0, 0%, 100%);
+  max-width: 400px;
 }
 .container .profile-img {
   background-image: url(../assets/images/avatar-jessica.jpeg);
@@ -68,4 +69,20 @@ body {
 .footer a {
   text-decoration: none;
   color: hsl(75, 94%, 57%);
+}
+
+@media (min-width: 576px) {
+  .container {
+    margin: 5em auto;
+  }
+}
+@media (min-width: 992px) {
+  .container .btn {
+    transition: color 0.5s, background-color 0.5s;
+  }
+  .container .btn:hover, .container .btn:focus {
+    color: hsl(0, 0%, 12%);
+    font-weight: bold;
+    background-color: hsl(75, 94%, 57%);
+  }
 }/*# sourceMappingURL=main.css.map */
