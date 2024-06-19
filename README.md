@@ -17,7 +17,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Finished a projec.](./design/Mobile-version.png)
+![Mobile Version.](./design/Mobile-version.png)
+![Desktop Version.](./design/Desktop-version.png)
 
 
 ### Links
