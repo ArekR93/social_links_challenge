@@ -27,6 +27,8 @@ body{
     border-radius: 15px;
     background-color: $darkGrey;
     color: $white;
+    max-width: 400px;
+    
     .profile-img{
         background-image: url(../assets/images/avatar-jessica.jpeg);
         background-position: center;
@@ -76,4 +78,24 @@ body{
         text-decoration: none;
         color:$green;
     }
+}
+
+//MEDIA
+@media (min-width: 576px) {
+    .container{
+        margin: 5em auto;
+    }
+}
+@media (min-width: 992px) {
+    .container{
+        .btn{
+            transition: color .5s, background-color .5s         ;
+        }
+        .btn:hover, .btn:focus{
+            color:$darkGrey;
+            font-weight: bold;
+            background-color: $green;
+        }
+    }
+    
 }
